@@ -1,14 +1,33 @@
-body {
-  background-color: #444444;
-  color: #dddddd;
-  font-family: Ariel, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
+html {
+  background-image: url(https://res.cloudinary.com/dk8n90n3m/o_42/pawel-czerwinski-qztBRIrU1FM-unsplash_pb5aq7);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: 'Poppins', sans-serif;
   margin: 10% 20%;
+}
+
+h1 {
+  margin-bottom: 0.25em;
+}
+
+h3, h4, h5 {
+  margin: 0 0 0.5em;
+}
+
+h3 {
+  margin-top: 0.5em;
 }
 
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid rgba(0, 0, 0, 0.85);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.85);
   background-color: rgba(0,0,0, 0.1)
 }
